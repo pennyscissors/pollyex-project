@@ -1,0 +1,34 @@
+Congratulations you have been selected to take the PollyEx coding challenge.  We pride ourselves on hiring top notch engineers and we are excited to see a sample of your professional code.
+
+## The problem
+You are in charge of creating a loan payment calculator.  A lot of people want to figure out what their payments are going to look like and how much of it is going to go towards principle vs interest.  To do that calculation you will need to take in the interest rate, loan amount, downpayment and the term length. Your program is going to get data from standard input in the following format:
+
+```
+amount: 100000
+interest: 5.5%
+downpayment: 20000
+term: 30
+
+```
+NOTE:
+a) the last line of input is a blank line.
+b) The term is given in years.
+c) The interest can be given a percentage or a digit.
+
+Your program needs to process the input including handling some human errors (upper/lower case, spacing etc) and output a JSON of the monthly payment and total interest paid.
+
+```
+{
+    "monthly payment": 454.23,
+    "total interest": 83523.23
+    "total payment" 163523.23
+}
+```
+
+## Solution Framework
+
+1. This challenge should take no more than 2-3 hours.  If it's taking longer chances are that you are solving something bigger than what we had in mind.
+2. Please send us back an archive (zip, tar) via some sharing method (DropBox, Google Drive etc) which contains your solution with instructions of how to get it running on either Mac or Windows.  Please do not use any tools that require purchase or subscription (Visual Studio Enterprise, for instance).  We will most likely test this on a bare bones Mac, Linux or Windows machine and just execute it on command line.
+3. It is preferred that if the dependencies are needed that you include requirements in a file rather than sending us the libraries, so please utilize npm, nuget, pip or whatever is appropriate.
+4. While this is a small task we do want to see a glimpse of your production code. This is not a 10 minute white boarding task - it's designed to be a take home test for a reason. Imagine you are delivering a new module into a production system, you'd probably want to include docs, tests, comments etc.
+5. As a personal favor we ask you not to post this challenge as a public repository on GitHub or another code sharing site. We don't want to spoil the fun for the next engineering candidate.
